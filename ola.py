@@ -1,4 +1,7 @@
-string = 'Antares'
+lista = []
 
-for i in string:
+for i in range(5):
+    lista.append(i)
+
+for i in lista:
     print(i)
